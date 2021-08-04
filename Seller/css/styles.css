@@ -1,0 +1,196 @@
+
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table{
+  margin-left:  auto;
+  margin-right: auto; 
+  width: 75%;
+  text-align: center;
+ 
+
+}
+
+
+
+.track {
+  float: right;
+  color: #ccc;
+  margin-right: 10%;
+
+
+}
+
+.track .trackbtn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor:context-menu;
+  outline: none;
+  margin-right: 10%;
+
+}
+
+.navbar a:hover, .track:hover .trackbtn {
+  background-color: rgb(127, 206, 230);
+}
+
+.track-content {
+  display:none;
+  position: absolute;
+  background-color: #aedce2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(48, 39, 39, 0.2);
+  z-index: 1;
+  text-decoration: #000;
+  margin-top: 25%;
+}
+
+.track-content a {
+  float: none;
+  color: black;
+  padding: 12px 18px;
+  text-decoration: none;
+
+  text-align: left;
+}
+
+.trackt-content a:hover {
+  background-color: #ddd;
+}
+
+.track:hover .track-content {
+  display: block;
+  widows: inherit;
+}
+
+.dropright {
+ 
+  margin-right: 500%;
+  overflow: hidden;
+  margin-right: 2%;
+  color: #000;
+  border: #000;
+
+
+}
+
+.dropright-content a:hover {
+  background-color: #ddd;
+}
+
+ .text{
+   color: #000;
+ }
+
+
+
+
+
+
+.drop
+{
+  float: right;
+  overflow: hidden;
+  color: #000;
+  background-color: #CFC7CF;
+  width: 10%;
+  height: 95%;
+  padding:10px 6px ;
+  margin-left: 25%;
+
+}
+
+
+
+/*
+.dropbtn {
+  width: 200%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px ;
+  font-size: 16px;
+  border: none;
+
+  
+
+}*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {
+  
+  display: block;}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;}
+
+
+.checked {
+  color: orange;
+}
+
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
